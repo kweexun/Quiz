@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce QUiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>eCommerce Quiz</h1>
+  
+    <div id="1" class = "current">
+    <h2>Question 1 of 3:</h2>
+    <p>Which of the following is not a real eCommerce platform?</p>
+      <div class = "ans">
+        <input type="radio" id="a11" name="Q1" value="Shopify" class = "Q1Ans">
+        <label for="shopify">Shopify</label><br>
+      </div>
+      <div class = "ans">
+        <input type="radio" id="a12" name="Q1" value="WooCommerce" class = "Q1Ans">
+        <label for="wooCommerce">WooCommerce</label><br>
+      </div>
+      <div class = "ans">
+        <input type="radio" id="a13" name="Q1" value="ShopCommerce" class = "Q1Ans">
+        <label for="shopCommerce">ShopCommerce</label><br>
+        </div>
+      <div class = "ans">
+        <input type="radio" id="a14" name="Q1" value="BigCommerce" class = "Q1Ans">
+        <label for="bigCommerce">BigCommerce</label>
+      </div>
+    </div>
+    
+    <div id="2" class = "non-current">
+    <h2>Question 2 of 3:</h2>
+    <p>If Shopify is so good, why are Shopify developers necessary?</p>
+      <div class = "ans">
+        <input type="radio" id="a21" name="Q2" value="Save" class = "Q2Ans">
+        <label for="save">To save time on things like store setups and migrations</label><br>
+      </div>
+      <div class = "ans">
+        <input type="radio" id="a22" name="Q2" value="Extend" class = "Q2Ans">
+        <label for="extend">To extend the limited design options and functionalities of themes with custom code</label><br>
+      </div>
+      <div class = "ans">
+        <input type="radio" id="a23" name="Q2" value="Provide" class = "Q2Ans">
+        <label for="provide">To provide support with a deep understanding of how the platform works and what its limitations are</label><br>
+        </div>
+      <div class = "ans">
+        <input type="radio" id="a24" name="Q2" value="All" class = "Q2Ans">
+        <label for="Q2-all">All the above</label>
+      </div>
+    </div>
+    
+    <div id="3" class = "non-current">
+    <h2>Question 3 of 3:</h2>
+    <p> Which of the following is true about Shopify developers?</p>
+      <div class = "ans">
+        <input type="radio" id="a31" name="Q3" value="Paid-Well" class = "Q3Ans">
+        <label for="paid-well">They are paid extremely well</label><br>
+      </div>
+      <div class = "ans">
+        <input type="radio" id="a32" name="Q3" value="High-Demand" class = "Q3Ans">
+        <label for="high-demand">There is a high demand for them</label><br>
+      </div>
+      <div class = "ans">
+        <input type="radio" id="a33" name="Q3" value="Know" class = "Q3Ans">
+        <label for="know">They need to know web development, the platform itself, and the liquid template language</label><br>
+        </div>
+      <div class = "ans">
+        <input type="radio" id="a34" name="Q3" value="All" class = "Q3Ans">
+        <label for="Q3-all">All the above</label>
+      </div>
+    </div>
+
+    <button class = "previous non-current">< Previous</button>
+    <button class = "next">Next ></button>
+    <button class = "submit non-current">Submit</button>
+
+    <div class="container-result">
+        <h2 class="result"></h2>
+        <button class = "restart non-current">Restart</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
